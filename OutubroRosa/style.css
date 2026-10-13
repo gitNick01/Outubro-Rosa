@@ -1,0 +1,142 @@
+header{
+    background: linear-gradient(135deg, #f9dce5, #fff1f4 60%, #f5cbd8);
+    padding: 30px 20px 0;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body { 
+    font-family: 'DM Sans', Arial, sans-serif;
+    margin: 0; padding: 0; 
+    background-color:  #fffaf8;
+    color: #35272d; 
+    line-height: 1.6;
+    }
+    a {
+         background-color:  #fffaf8; 
+         color:  #87314f;
+         padding: 12px 18px; 
+         text-decoration: none;
+          border-radius: 2px; 
+         font-weight: bold; 
+    }
+
+h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.2;
+    color: #87314f;
+    font-size: 2rem;
+    margin: 10px 0 18px;
+    text-align: center;
+}
+h2{
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.2;
+    color: #87314f;
+    font-size: 2rem;
+    margin: 10px 0 18px;
+    text-align: center;
+
+}
+h3{
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.2;
+    color: #87314f;
+    font-size: 1.5rem;
+    margin: 10px 0 18px;
+    text-align: left;
+
+}
+h4{
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.2;
+    color: #35272d;;
+    font-size: 1.2rem;
+    margin: 10px 0 18px;
+    text-align: left;
+
+}
+.primeiro-paragrafo{
+    margin: 0 0 20px;
+    font-size: 1rem;
+    text-align:center;
+}
+.segundo-paragrafo{
+    margin: 0 0 20px;
+    font-size: 1rem;
+    text-align: left;
+}
+.fundo{
+    background-color: #ffdcfa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #af7d8d;
+}
+
+img{
+    max-width:50%;
+    height: auto;
+    left: 320px;
+    position:relative;
+    
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 25px max(20px, calc((100% - 1100px) / 2));
+    background: #f7dbe4;
+    color: #87314f; 
+    font-size: 0.9rem;
+}
+
+.fatores-risco {
+    max-width: 1100px;
+    margin: 32px auto;
+    padding: 0 20px;
+}
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+.fatores-risco table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.fatores-risco caption {
+    padding: 12px;
+    color: #87314f;
+    font-weight: bold;
+    text-align: left;
+}
+
+.fatores-risco th,
+.fatores-risco td {
+    border: 1px solid #e8c3cf;
+    padding: 14px 16px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.fatores-risco thead th {
+    background-color: #87314f;
+    color: #fff;
+}
+
+.fatores-risco tbody th {
+    width: 25%;
+    color: #87314f;
+    background-color: #fff1f4;
+}
+
+@media (max-width: 600px) {
+    .fatores-risco th,
+    .fatores-risco td {
+        padding: 10px 12px;
+    }
+}
